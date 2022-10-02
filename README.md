@@ -1,8 +1,8 @@
-<!---Document version 1.0 --->
+<!---Document version 2.0 --->
 
 # CLIpasswordMaker
 
-Applicazione command line per la generazione di password casuali
+Command line application for random password genenator
 
 ## Installation 
 
@@ -13,35 +13,22 @@ sudo sh install.sh
 ```
 ## Usage 
 
-Per passowrd di lunghezza arbitraria
+For default length password (8)
+
+```
+psw
+```
+
+For given length
 
 ```
 psw -l <num> 
 ```
-
-or 
-
-```
-psw --lenght <num>
-```
-
-Per generare un numero definito di password in una volta
-
-```
-psw -n <num>
-```
-or 
-
-```
-psw --number <num>
-```
-
-Per maggiori dettagli
+For other details
 
 ```
 psw --help
 ```
-
 ## Example 
 
 ```
