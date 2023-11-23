@@ -1,17 +1,17 @@
 <!---Document version 2.0 --->
 
-# CLIpasswordMaker
+# CLIpasswordMaker 🔑
 
-Command line application for random password genenator
+Command line application for random password genenator.
 
-## Installation 
+## Installation 🔩
 
 ```
 git clone https://github.com/Giuto01/CLIpasswordMaker.git
 cd CLIpasswordMaker
 sudo sh install.sh
 ```
-## Usage 
+## Usage  📜
 
 For default length password (8)
 
@@ -29,7 +29,7 @@ For other details
 ```
 psw --help
 ```
-## Example 
+## Example of usage 💪
 
 ```
 psw --lenght 16 -n 4
