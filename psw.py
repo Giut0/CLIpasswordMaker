@@ -38,7 +38,7 @@ def makePassword(len):
     return password
 
 def validatePassword(password):
-    trueCondition = ('^.*(?=.{'+str(len(password))+',})(?=.*\d)(?=.*[a-z])'
+    trueCondition = ('^.*(?=.{'+str(len(password))+',})(?=.*\\d)(?=.*[a-z])'
                         '(?=.*[A-Z])(?=.*[!£$%&#=?]).*$')
     return re.findall(trueCondition, password)
 
